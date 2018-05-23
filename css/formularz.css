@@ -1,0 +1,192 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-image: url("../img/tlo.jpg");
+	background-repeat: repeat-x;
+	background-color: transparent;
+	font-size: 25px;
+	color: #FFFFFF;
+	font-family: 'Amatic SC', cursive;
+	text-shadow: 2.5px 2.5px 4px #000000;
+}
+section:first-child{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
+	height: auto;
+}
+section{
+	width: 578px;
+	height: 422px;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 15px;
+	text-align: justify;
+	text-shadow: none;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+.kontakt{
+	display: block;
+	font-size: 50px;
+	font-weight: 700;
+	text-align: center;
+	width: 577px;
+	margin-bottom: 8px;
+}
+
+.wysylanie{
+	display: block;
+	text-align: left;
+	width: 100%;
+}
+
+.numerki{
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+.wymagane{
+	float: left;
+	width: auto;
+	margin-top: 4px;
+	margin-right: 60px;
+}
+
+.nazwa{
+	width: 150px;
+}
+
+.dane{
+	width: 256px;
+}
+
+.weryfikacja{
+	display: block;
+	margin-left: -70px;
+	margin-top: 8px;
+}
+.php{
+	display: none;
+}
+#pole{
+	background-color: #404040;
+	border: 1px solid #000000;
+	color: #FFFFFF;
+	caret-color: #FF0000;
+}
+
+input[type=text]{
+	background-color: #404040;
+	border: 1px solid #000000;
+	color: #FFFFFF;
+	width: 171px;
+	height: 26px;
+	font-size: 14px;
+	caret-color: #FF0000;
+}
+
+input[type=tel]{
+	background-color: #404040;
+	border: 1px solid #000000;
+	color: #FFFFFF;
+	width: 171px;
+	height: 26px;
+	font-size: 14px;
+	caret-color: #FF0000;
+}
+
+input[type=email]{
+	background-color: #404040;
+	border: 1px solid #000000;
+	color: #FFFFFF;
+	width: 171px;
+	height: 26px;
+	font-size: 14px;
+	caret-color: #FF0000;
+}
+
+input[type=submit]{
+	cursor: pointer;
+	background-color: #404040;
+	border: 1px solid #000000;
+	color: #FFFFFF;
+	width: 60px;
+	height: 30px;
+	text-align: center;
+}
+
+input[type=reset]{
+	cursor: pointer;
+	background-color: #404040;
+	border: 1px solid #000000;
+	color: #FFFFFF;
+	width: 70px;
+	height: 30px;
+	text-align: center;
+}
+
+input[type=button]{
+	cursor: pointer;
+	background-color: #404040;
+	border: 1px solid #000000;
+	color: #FFFFFF;
+	width: 30px;
+	height: 27px;
+	text-align: center;
+}
+
+textarea{
+	max-width: 250px;
+	min-width: 250px;
+	max-height: 100px;
+	min-height: 100px;
+	margin-top: 10px;
+}
+
+table{
+	width: 100%;
+	line-height: 120%;
+}
+#pole:focus{
+	border: 1px solid #FFFFFF;
+	outline: none;
+}
+
+input[type=text]:focus{
+	border: 1px solid #FFFFFF;
+	outline: none;
+}
+
+input[type=tel]:focus{
+	border: 1px solid #FFFFFF;
+	outline: none;
+}
+
+input[type=email]:focus{
+	border: 1px solid #FFFFFF;
+	outline: none;
+}
+
+input[type=submit]:focus{
+	border: 1px solid #FFFFFF;
+	outline: none;
+}
+
+input[type=reset]:focus{
+	border: 1px solid #FFFFFF;
+	outline: none;
+}
+
+input[type=button]:focus{
+	border: 1px solid #FFFFFF;
+	outline: none;
+}
+textarea::placeholder{
+	color: #FFFFFF;
+}
+
+input::placeholder{
+	color: #FFFFFF;
+}
